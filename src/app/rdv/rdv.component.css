@@ -1,0 +1,217 @@
+
+
+
+/*#global {
+    background-color: #121D55;
+    font-family: 'Raleway', sans-serif; /* Use 'DM Serif Display' font family 
+    
+  }*/
+ /* .sticky-row {
+    position: sticky;
+    z-index: 1000;
+    top: 10px; 
+    padding: 0px;
+    z-index:1000;
+    background-color:#25246279;
+
+    
+  }*/
+  .custom-margin {
+    margin-top: 160px; /* Adjust the margin-top value as needed */
+  }
+  
+  .custom-margin-psy {
+    margin-top: 170px; /* Adjust the margin-top value as needed */
+  }
+  .title-description-psy {
+    margin-left: -85px;
+    }
+  
+  .dm-serif display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  
+  
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+  body {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+ /* nav {
+    border-radius: 40px; 
+  }*/
+  
+  /*.navbar {
+    padding: 0.7rem 1rem; /* Adjust the padding as per your preference 
+    background-color: #e9ecef2e !important;
+    text-decoration: solid;
+    border-radius: 40px; /* Rounded edges 
+  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add subtle shadow for elevation 
+  
+  
+    
+  }*/
+  
+  nav a {
+    color: white !important;
+  }
+  
+  /*.navbar-nav .nav-link {
+    
+      color: #a2a2a2; 
+      cursor: pointer;
+      margin: 0 5px;
+      font-family:raleway;
+      font-size: smaller; 
+      font-weight: bold;/* Modify the font size 
+    
+    
+  
+    
+  }
+  
+  .nav-link.active,
+  .navbar-nav .nav-link:focus,
+  .navbar-nav .nav-link:hover {
+    font-weight: bold; /* Style for active nav link 
+    border-radius: 40px; 
+    background-color: rgba(0, 0, 0, 0.377); /* Darken background color 
+  }*/
+  
+  .card {
+    background-color: rgba(233, 236, 239, 0.142) !important; /* Adjust the alpha value to control opacity */
+    border-radius: 45px !important;
+    height: 190px !important;
+  }
+  
+  
+  .alo {
+    display: flex;
+  }
+  
+  h3, h5 {
+    text-color: white;
+  }
+  
+/*  .logo-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    max-width: 60%;
+    max-height: 60%;
+  }*/
+  
+ /* .language-selector { 
+    display: flex;
+    align-items: center;
+  }*/
+  
+  /*.language {
+    color: #a2a2a2; /* Default color for non-selected language 
+    cursor: pointer;
+    margin: 0 5px;
+    font-family: 'Railway', sans-serif;
+    font-size:small
+  }
+  
+  .language.selected {
+    color: #ffffff; /* Color for selected language 
+  }*/
+  
+
+  .btn-custom {
+    background-color: rgba(233, 236, 239, 0.5);
+    border: none;
+    border-radius: 20px;
+    color: #000; /* Adjust text color */
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
+
+.large-square {
+    background-color: rgba(233, 236, 239, 0.5);
+    border: none;
+    border-radius: 20px;
+    color: #000; /* Adjust text color */
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
+
+  
+
+
+/* Simplified and improved button styles */
+.button-text {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Button takes full width of container */
+    height: 60px; /* Reduced height for all buttons */
+    padding: 12px 40px; /* Adjusted padding */
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid #ffffff;
+    border-radius: 25px; /* Reduced border radius */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.frame-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.rectangle {
+    flex-shrink: 0;
+    position: relative;
+    width: 100%;
+    height: 650px;
+    /*background: url(./assets/images/f6257276-87be-4a56-b0ea-5bd804303f23.png) no-repeat center;*/
+    background-size: cover;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 35px;
+    -webkit-backdrop-filter: blur(150px);
+    backdrop-filter: blur(150px);
+    box-shadow: 0 18px 25px rgba(0, 0, 0, 0.211); /* Thick drop shadow */
+    border-width:0.5px; /* Thin border */
+    border-style:inset;
+    border-color: #ffffff; /* White border color */
+    border-top-width: 0.1px;
+    border-left-width: 0.1px; 
+    border-right-width: 0.1px; 
+    border-bottom-width: 0; 
+}
